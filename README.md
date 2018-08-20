@@ -1,4 +1,4 @@
-<p?>
+<p>
 <h3 align="center">Altis Life: IRT Base Installation</h3>
 </p>
 ##Synopsis
