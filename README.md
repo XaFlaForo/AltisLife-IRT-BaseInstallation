@@ -35,3 +35,10 @@ To install any script with (IRT) in its name you must install this dependency fi
 #include "IRT_RemoteExec.hpp"
 
 <br/> 
+
+## Copyright and License
+
+Copyright (c) 2018 Ethan (XaLaForo), IRT Studios
+
+### All code is licensed under the MIT license.
+
