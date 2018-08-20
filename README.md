@@ -6,3 +6,7 @@ To install any script with (IRT) in its name you must install this dependency fi
 
 <h3> Installation Guide</h3>
 
+<b> Step 1: DOWNLOAD THE IRT FOLDER AND PUT IT IN THE ROOT OF YOUR MISSION </b>
+
+<b> Step 2: GO TO DESCRIPTION.EXT AND PASTE THE CODE BELOW AT TOP OF THE FILE </b>
+ #include "IRT\IRT_Config.hpp"
