@@ -28,7 +28,7 @@ To install any script with (IRT) in its name you must install this dependency fi
 
 
 <br/> 
-<b> Step 4: GO TO CfgRemoteExec.hpp AND PASTE THE CODE BELOW IN CfgFunctions </b>
+<b> Step 4: GO TO CfgRemoteExec.hpp AND PASTE THE CODE BELOW jip = 0; </b>
 
 <br/> 
 <br/> 
