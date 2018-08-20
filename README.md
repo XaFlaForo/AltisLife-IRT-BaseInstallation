@@ -16,12 +16,15 @@ To install any script with (IRT) in its name you must install this dependency fi
 
 
 <br/> 
+
 <b> Step 3: GO TO description.ext AND PASTE THE CODE BELOW IN CfgFunctions </b>
+<br/> 
 #include "IRT_Functions.hpp"
 <br/> 
 
 
 <br/> 
 <b> Step 4: GO TO CfgRemoteExec.hpp AND PASTE THE CODE BELOW IN CfgFunctions </b>
+<br/> 
 #include "IRT_RemoteExec.hpp"
 <br/> 
