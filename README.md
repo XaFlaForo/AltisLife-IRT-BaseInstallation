@@ -7,6 +7,8 @@ To install any script with (IRT) in its name you must install this dependency fi
 <h3> Installation Guide</h3>
 
 <b> Step 1: DOWNLOAD THE IRT FOLDER AND PUT IT IN THE ROOT OF YOUR MISSION </b>
+<br/> 
+
 
 <b> Step 2: GO TO description.ext AND PASTE THE CODE BELOW AT TOP OF THE FILE </b>
 
@@ -29,7 +31,7 @@ To install any script with (IRT) in its name you must install this dependency fi
 <b> Step 4: GO TO CfgRemoteExec.hpp AND PASTE THE CODE BELOW IN CfgFunctions </b>
 
 <br/> 
-
+<br/> 
 #include "IRT_RemoteExec.hpp"
 
 <br/> 
