@@ -6,3 +6,7 @@
     Description:
     Master include for IRT functions
 */
+
+class IRT_FW {
+    tag = "IRT";
+};
