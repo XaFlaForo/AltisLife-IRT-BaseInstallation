@@ -1,40 +1,59 @@
 <p>
-<h3 align="center">Altis Life: IRT Base Installation</h3>
+<h3 align="center">Altis Life: IRT SeatBelts Installation</h3>
 </p>
 <h3> Synopsis:</h3>
 To install any script with (IRT) in its name you must install this dependency first
 
 <h3> Installation Guide</h3>
 
-<b> Step 1: DOWNLOAD THE IRT FOLDER AND PUT IT IN THE ROOT OF YOUR MISSION </b>
+<b> Step 1: DOWNLOAD THE SEATBELTS FOLDER AND PUT IT IN THE ROOT OF YOUR MISSION </b>
 <br/> 
 
 
-<b> Step 2: GO TO description.ext AND PASTE THE CODE BELOW AT TOP OF THE FILE </b>
+<b> Step 2: GO TO IRT_Functions.hpp AND PASTE THE CODE IN </b>
 
 <br/> 
 
-#include "IRT\IRT_Config.hpp"
+class Belts {
+        file = "IRT\SeatBelts";
+        class initbelts {};
+        class seatbeltaction {};
+        class seatbeltOff {};
+        class seatbeltOn {};
+};
 
 <br/> 
 
-<b> Step 3: GO TO description.ext AND PASTE THE CODE BELOW IN CfgFunctions </b>
+<b> Step 3: GO TO fn_keyhandler AND PASTE THE CODE BELOW IN ALSO MAKE SURE NO OTHER HANDLER IS CASE 48  </b>
 
 <br/> 
 
-#include "IRT\IRT_Functions.hpp"
+//--- B KEY
+    case 48: {
+        if (vehicle player != player) then {
+           [] spawn IRT_fnc_seatbeltaction;
+        };
+    };
 
 <br/> 
 
 
 <br/> 
-<b> Step 4: GO TO CfgRemoteExec.hpp AND PASTE THE CODE BELOW jip = 0; </b>
+<b> Step 4: GO TO  AND PASTE THE CODE BELOW </b>
 
 <br/> 
 <br/> 
-#include "IRT\IRT_RemoteExec.hpp"
+//--- SeatBelt
+[] spawn IRT_fnc_initbelts;
+<br/> 
 
 <br/> 
+
+<b> Step 5: GO TO configuration.sqf AND PASTE THE CODE BELOW IN  </b>
+
+<br/> 
+
+IRT_SeatBelt = false;
 
 ## Copyright and License
 
