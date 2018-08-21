@@ -14,13 +14,13 @@ To install any script with (IRT) in its name you must install this dependency fi
 
 <br/> 
 
-class Belts {
-        file = "IRT\SeatBelts";
-        class initbelts {};
-        class seatbeltaction {};
-        class seatbeltOff {};
-        class seatbeltOn {};
-};
+class Belts { <br/> 
+        file = "IRT\SeatBelts"; <br/> 
+        class initbelts {}; <br/> 
+        class seatbeltaction {}; <br/>  
+        class seatbeltOff {}; <br/> 
+        class seatbeltOn {}; <br/> 
+}; <br/> 
 
 <br/> 
 
@@ -28,12 +28,12 @@ class Belts {
 
 <br/> 
 
-//--- B KEY
-    case 48: {
-        if (vehicle player != player) then {
-           [] spawn IRT_fnc_seatbeltaction;
-        };
-    };
+//--- B KEY <br/> 
+    case 48: { <br/> 
+        if (vehicle player != player) then { <br/> 
+           [] spawn IRT_fnc_seatbeltaction; <br/> 
+        }; <br/> 
+    }; <br/> 
 
 <br/> 
 
