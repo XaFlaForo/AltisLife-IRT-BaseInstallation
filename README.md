@@ -22,7 +22,7 @@ To install any script with (IRT) in its name you must install this dependency fi
 
 <br/> 
 
-#include "IRT_Functions.hpp"
+#include "IRT\IRT_Functions.hpp"
 
 <br/> 
 
@@ -32,7 +32,7 @@ To install any script with (IRT) in its name you must install this dependency fi
 
 <br/> 
 <br/> 
-#include "IRT_RemoteExec.hpp"
+#include "IRT\IRT_RemoteExec.hpp"
 
 <br/> 
 
