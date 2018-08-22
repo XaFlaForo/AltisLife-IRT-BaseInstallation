@@ -6,3 +6,5 @@
     Description:
     Master include for IRT configs
 */
+
+#include "Bleedout\config.hpp"

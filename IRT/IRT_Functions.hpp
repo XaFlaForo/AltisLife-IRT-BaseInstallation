@@ -7,6 +7,8 @@
     Master include for IRT functions
 */
 
-class IRT_FW {
+class IRT {
     tag = "IRT";
+    #include "Bleedout\Functions.hpp"
+    #include "Seatbelts\Functions.hpp"
 };
