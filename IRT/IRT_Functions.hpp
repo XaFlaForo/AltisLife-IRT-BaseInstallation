@@ -9,6 +9,4 @@
 
 class IRT {
     tag = "IRT";
-    #include "Bleedout\Functions.hpp"
-    #include "Seatbelts\Functions.hpp"
 };
